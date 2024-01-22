@@ -151,17 +151,12 @@ span{
 
 }
 
-.presentation__links_links:hover{
+.presentation__links_navegation:hover{
 
     background-color: #272727;
 
 }
 
-
-.presentation__links_link:hover{
-
-    background-color: #272727;
-}
 
 .presentation__image{
     width: 50%;
