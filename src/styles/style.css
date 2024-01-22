@@ -16,6 +16,9 @@
     --second-color: white;
     --third-color: red;
 
+    --font-lato: "Lato", sans-serif;
+    --font-montsserat: "Montsserat", sans-serif;
+
   }
 
   *{
@@ -45,7 +48,7 @@ body {
 
 .cabecalho__menu__link{
     text-decoration: none;
-    font-family: "Montsserat", sans-serif;
+    font-family: var(--font-montsserat);
     font-size: 1.5rem;
     font-weight: 600;
     color:var(--third-color);
@@ -92,12 +95,12 @@ span{
 }
 
 .presentation__content__title{
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-lato);
     font-size: 2.25rem;
 }
 
 .presentation__content__text{
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-lato);
     font-size: 1.5rem;
 }
 
@@ -112,7 +115,7 @@ span{
 }
 
 .presentation__links__subtitle{
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-lato);
     font-weight: 400;
 
 }
@@ -134,7 +137,7 @@ span{
     font-size: 1.5rem;
     padding: 24px;
     color: var(--third-color);
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-lato);
     font-weight: 400;
     border: 2px solid var(--third-color);
 
@@ -169,7 +172,7 @@ span{
     text-align: center;
     background-color: var(--third-color);
     color: var(--main-color);
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-lato);
     padding: 24px;
     font-weight: 400;
 }
@@ -177,8 +180,10 @@ span{
 @media (max-width: 1200px) {
     
     .cabecalho{
-        padding: 10% 0% 0% 20%;
-        
+        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     .cabecalho__menu{
@@ -198,6 +203,7 @@ span{
         width: auto;
 
     }
+
   
 
 }
