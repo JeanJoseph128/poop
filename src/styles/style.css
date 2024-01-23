@@ -140,8 +140,11 @@ span{
     font-family: var(--font-lato);
     font-weight: 400;
     border: 2px solid var(--third-color);
+    transition: .5s;
+    
 
 }
+
 
 .footer{
     text-align: center;
@@ -157,6 +160,8 @@ span{
 .presentation__links_navegation:hover{
 
     background-color: #272727;
+    transform: scale(1.1);
+    
 
 }
 
